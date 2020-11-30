@@ -1,7 +1,6 @@
 def snake_it_up(string)
   if string[0] == "s"
-    ("s" * string) + 
-    binding.pry
+    (10 * "s") + string
   elsif
     string
   end
